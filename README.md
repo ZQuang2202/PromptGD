@@ -81,6 +81,6 @@ python3 evaluate.py \
     --iou-eval \
     --seen 0
 ```
-- I also provided logs training and pretrained weight of all model in folder [logs](/logs).
+- I also provided logs training and pretrained weight of all model at https://huggingface.co/datasets/QuangNguyen22/PromptGD/tree/main
 ## Acknowledgement
 The code is developed based on [Kumra et al.](https://github.com/skumra/robotic-grasping).
