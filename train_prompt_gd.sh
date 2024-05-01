@@ -1,0 +1,12 @@
+python3 train_network_PromptGD.py \
+    --clip-version ViT-B/32 \
+    --use-depth 0 \
+    --dataset grasp-anything \
+    --dataset-path /home/bdi/AdvancedLiterateMachinery/DocumentUnderstanding/CLIP_OCR/Dataset/grasp-anything++/seen \
+    --batch-size 8 \
+    --batches-per-epoch 300 \
+    --epochs 100 \
+    --lr 0.003 \
+    --lr-step-size 5 \
+    --logdir logs/prompt_gd \
+    --seen 1
