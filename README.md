@@ -13,7 +13,9 @@ conda activate grasp
 conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.3 -c pytorch
 pip install -r requirements.txt
 ```
-
+## Methodology
+![image](https://github.com/ZQuang2202/PromptGD/assets/152836329/bd60f20e-5249-4c4c-89c7-b2cc93fca81a)
+I introduce a novel paradigm leveraging language reasoning via a foundational vision-language model. By learning the semantic relationship between image and instruction text, this approach enhances model performance in open-vocabulary settings over traditional methods.
 ## Datasets
 - [Grasp-Anything](https://grasp-anything-2023.github.io/)
 
